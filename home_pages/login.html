@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./login.css">
+    <title>Login into your Account</title>
+</head>
+<body onload="Loaded()">
+    <div id="loading"></div>
+    <h1>Log In into Account</h1>
+
+    <form id="form" name="login" onsubmit="true" method="'post'">
+        <label for="Account Id">Account ID</label>
+        <input type="text" id="Account Id" name="Account Id" placeholder="Account ID" required>
+        <br><br>
+    </form>
+    <br><br>
+    <input type="submit" value="Log In" onclick="pageRedirect()">
+    <script src="login.js"></script>
+</body>
+
+</html>

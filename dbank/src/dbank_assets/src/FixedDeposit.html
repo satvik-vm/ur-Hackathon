@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DBank</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1, shrink-to-fit=no">
+        <link type="text/css" rel="stylesheet" href="../assets/Savings.css" />
+        <script type="module" scr="./FixedDeposit.js"></script>
+  </head>
+
+<body>
+    
+    
+    <div class="header">
+        <header class="top-header"> 
+            <h1>DBank
+                <img src="./logo_1.png" width="40px" height="40px"> 
+            </h1> 
+            
+        </header> 
+    </div>
+    <br><br>
+
+    <div class="buttons">   
+        
+        <button type="button" class = "button button1" id="num-deposit">
+
+            <span class="button__text">Number Of FD</span>
+                <span class="button__icon">
+                    <ion-icon name="cash"></ion-icon>
+            </span>
+            
+        </button>
+        <h3>Number of FD: $<span id="fd-out">0</span></h3>
+    </div>
+    <br><br>
+    <div class="buttons">   
+        
+        <button type="button" class = "button button1" id="create-fd" onclick="document.getElementById('amount-fd', 'time-fd').value = ''">
+
+            <span class="button__text">Create FD</span>
+                <span class="button__icon">
+                    <ion-icon name="cash"></ion-icon>
+            </span>
+            
+        </button>
+        <input class = "input" id="amount-fd" placeholder="Amount" style = "margin-left:40%" vlaue=""></div>
+        <input class = "input" id="time-fd" placeholder="Amount" style = "margin-left:40%"></div>
+    </div>
+    <br><br>
+    <div class="buttons">   
+        
+        <button type="button" class = "button button1" id="withdraw">
+
+            <span class="button__text">Withdraw Deposit</span>
+                <span class="button__icon">
+                    <ion-icon name="cash"></ion-icon>
+            </span>
+            
+        </button>
+
+    </div>
+
+
+</body>

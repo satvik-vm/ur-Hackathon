@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DBank</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1, shrink-to-fit=no">
+        <link type="text/css" rel="stylesheet" href="../assets/Savings.css" />
+        <script type="module" scr="./Savings.js"></script>
+        
+  </head>
+
+<body>
+    
+    
+    <div class="header">
+        <header class="top-header"> 
+            <h1>DBank
+                <img src="./logo_1.png" width="30px" height="40px"> 
+            </h1> 
+            
+        </header> 
+    </div>
+    <br><br>
+    <div class="buttons">   
+        
+        <button type="button" class = "button button1" id ="deposit-btn">
+
+            <span class="button__text">Deposit</span>
+                <span class="button__icon">
+                    <ion-icon name="cash"></ion-icon>
+            </span>
+            
+        </button>
+
+        <input class = "input" id="deposit-in" placeholder="Amount" style = "margin-left:40%"></div>
+    </div>
+    <br><br>    
+    <div>   
+        <button type="button" class = "button button2" id="withdrawl-btn"> 
+        
+            <span class="button__text">Withdraw</span>
+                <span class="button__icon">
+                    <ion-icon name="wallet"></ion-icon>
+            </span>
+            
+
+        </button>
+        
+    </div>
+    <div><input class = "input" id="withdrawl-in" placeholder="Amount" style = "margin-left:40%"></div>
+    <br><br> 
+
+    <div>   
+        <button type="button" class = "button button3"> 
+        
+            <span class="button__text" id="balance-btn">Check Balance</span>
+                <span class="button__icon">
+                    <ion-icon name="cloud"></ion-icon>
+                </span>
+            
+
+        </button>
+
+        <h3>Current Balance: $<span id="balance-out">0</span></h3>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>

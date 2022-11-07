@@ -1,0 +1,18 @@
+service : {
+  checkBalance: () -> (float64) query;
+  check_fd: () -> (int) query;
+  compound_interest: () -> () oneway;
+  constructor: (text, int, text) -> () oneway;
+  deposit: (float64) -> () oneway;
+  fixed_deposit: (float64, int) -> (int);
+  getAge: () -> (int) query;
+  getName: () -> (text) query;
+  getPassword: () -> (text) query;
+  id: () -> (principal);
+  setAge: (int) -> (int);
+  setName: (text) -> (int);
+  setPassword: (text) -> (int);
+  whoami: () -> (principal);
+  withdraw_fd: () -> (int);
+  withdrawl: (float64) -> (int);
+}

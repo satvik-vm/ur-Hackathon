@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign Up to Account</title>
+</head>
+<body onload="Loaded()">
+    <div id="loading"></div>
+    <h1>Sign Up for New Account</h1>
+    <div class="page"></div>
+    <form action="https://localhost:8080/handle-post-data" class="signup" onsubmit="true" method="post">
+        <label for="User Name">Enter User Name</label>
+        <input type="text" id="User Name" name="User Name" required>
+        <br><br>
+        <label for="Age">Enter Age</label>
+        <input type="number" id="Age" name="Age" required>
+        <br><br>
+        <label for="Password">Enter Password</label>
+        <input type="password" id="Password" name="Password" required>
+        <br><br>
+        <label for="CPassword">Confirm Password</label>
+        <input type="password" id="CPassword" name="CPassword" required>
+        <br><br>
+        <input type="submit" value="Create New Account" onclick="Send()">
+    </form>
+    </div>
+    <script src="signup.js"></script>
+
+</body>
+   
+</html>

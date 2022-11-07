@@ -1,0 +1,8 @@
+// Version: 1.0.0
+actor {
+  stable var account : Text;
+  stable var currentValue : Float;
+  stable var name : Text;
+  stable var password : Text;
+  stable var startTime : Int
+};
